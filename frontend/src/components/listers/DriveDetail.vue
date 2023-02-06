@@ -20,6 +20,9 @@
             <div>
                 <Date label="UploadedDate" v-model="item.uploadedDate" :editMode="editMode" @change="change" />
             </div>
+            <div>
+                <String label="State" v-model="item.state" :editMode="editMode" @change="change" />
+            </div>
         </v-card-text>
 
         <v-card-actions>

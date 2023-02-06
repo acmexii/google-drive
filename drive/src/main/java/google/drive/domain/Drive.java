@@ -54,6 +54,12 @@ public class Drive  {
     
     
     private Date uploadedDate;
+    
+    
+    
+    
+    
+    private String state;
 
     @PostPersist
     public void onPostPersist(){

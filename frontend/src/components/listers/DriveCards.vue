@@ -73,6 +73,7 @@
                 'fileSize': 0,
                 'userId': 0,
                 'uploadedDate': '2023-02-06',
+                'state': '',
             }
         },
         methods:{

@@ -15,6 +15,7 @@
                             
                             
                             
+                            
                         </v-list-item-title>
 
                         <v-list-item-subtitle style="font-size:25px; font-weight:700;">
@@ -24,6 +25,7 @@
                             [ FileSize :  {{data.fileSize }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ UserId :  {{data.userId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ UploadedDate :  {{data.uploadedDate }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ State :  {{data.state }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </v-list-item-subtitle>
 
                     </v-list-item-content>
@@ -110,6 +112,7 @@
                 'fileSize': 0,
                 'userId': 0,
                 'uploadedDate': '2023-02-06',
+                'state': '',
             }
         },
         methods: {

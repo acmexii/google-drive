@@ -72,6 +72,7 @@
                     { text: "fileSize", value: "fileSize" },
                     { text: "userId", value: "userId" },
                     { text: "uploadedDate", value: "uploadedDate" },
+                    { text: "state", value: "state" },
                 ],
             drive : [],
             newValue: {},
@@ -94,6 +95,7 @@
                 'fileSize': 0,
                 'userId': 0,
                 'uploadedDate': '2023-02-06',
+                'state': '',
             }
         },
         methods: {

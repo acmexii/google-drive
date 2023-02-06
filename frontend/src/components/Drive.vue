@@ -22,6 +22,7 @@
             <Number label="FileSize" v-model="value.fileSize" :editMode="editMode"/>
             <Number label="UserId" v-model="value.userId" :editMode="editMode"/>
             <Date label="UploadedDate" v-model="value.uploadedDate" :editMode="editMode"/>
+            <String label="State" v-model="value.state" :editMode="editMode"/>
         </v-card-text>
 
         <v-card-actions>
